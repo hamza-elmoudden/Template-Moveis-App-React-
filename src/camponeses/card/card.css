@@ -1,0 +1,61 @@
+.card-img-top{
+    border-radius: 10px !important;
+    height:431px !important;
+}
+.card{
+    width: 18rem;
+    background-color: transparent !important;
+    border: none !important;
+    cursor: pointer;
+}
+.card-body{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.card-body div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name_movie{
+    color: yellow;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 0;
+}
+
+.data_movie{
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.hd{
+    padding: 1px 4px;
+    border: 1px solid whitesmoke;
+    color: yellow;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.time{
+    color: white;
+    font-weight: bold;
+}
+
+
+.card:hover{
+    transform: translateY(-1rem);
+    opacity: 0.6;
+}
+
+@media (max-width:991px) {
+    .col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

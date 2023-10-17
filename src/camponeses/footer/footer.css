@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+
+
+
+
+.footers{
+    padding-bottom: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+
+.last_footer > p{
+    color: white;
+    word-spacing: 2.6px;
+    letter-spacing: 1.6px;
+}
+
+.last_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.last_footer p span{
+    color: yellow;
+}
+
+.last_footer p{
+    white-space: 1px;
+}
+
+.footers .container{
+    gap: 17%;
+}

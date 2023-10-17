@@ -1,0 +1,52 @@
+.Base{
+    background-image: url('./images/service-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 3rem;
+}
+
+.movies{
+    min-height: calc(100vh - 136px) !important;
+    
+}
+
+.movies .card-img-top{
+    height:300px !important;
+
+}
+
+.Cont-serch{
+    gap: 2rem;
+}
+
+.search{
+    width: 40rem;
+    height: 3rem;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    outline: none;
+    background-color: transparent;
+    color:white ;
+    border: 1.5px solid white;
+}
+
+.search:hover{
+    border-color: yellow;
+}
+
+.Btn-serch{
+    outline: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+
+.Btn-serch:hover{
+    border: 2px solid rgb(4, 92, 133,0.5);
+    background-color: rgb(233, 179, 3);
+
+}

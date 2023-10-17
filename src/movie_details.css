@@ -1,0 +1,127 @@
+
+
+.movies_back{
+    background-image: url("./images/upcoming-bg.png");
+}
+.setction{
+    background-image: url('./images/movie-detail-bg.png');
+}
+
+.movies_back,
+.setction{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.moves_hi{
+    height: 100%;
+}
+.movies_details{
+    min-height: calc(100vh - 136px);
+}
+
+.cont_moves{
+    height: fit-content;
+}
+
+.image_moves{
+    max-width: 100%;
+    border-radius: 10px;
+    height: 527px;
+    background-position: center !important;
+    background-size: cover;
+}
+
+.lefth{
+    width: 300px;
+    height: 527px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.lefth p{
+    color: white;
+}
+
+.lefth >p{
+    color: yellow;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.lefth h1{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: white;
+    word-spacing: 2px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.lefth h1 span{
+    color: yellow;
+    font-weight: bold;
+}
+
+.liste{
+    display: flex;
+    gap: 10px;
+    width: 39rem;
+    padding-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.list_para{
+    font-size: 16px;
+}
+
+.data{
+    font-weight: bold;
+    color: yellow !important;
+}
+
+.watche{
+    font-size: 26px;
+    font-weight: bold;
+    color: yellow !important;
+    padding: 1rem 2rem;
+    border: 1px solid rgb(3, 72, 138);
+    border-radius: 50px;
+}
+
+
+.watche:hover{
+    background-color:rgb(112, 111, 111,0.6);
+    color:white !important;
+    border:2px solid rgb(194, 159, 4);
+}
+
+
+.hd{
+    width: fit-content;
+}
+
+.pg{
+    padding: 1px 3px;
+    background-color: white;
+    color: black !important;
+    font-weight: bold;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+
+@media (max-width:992px) {
+    .lefth{
+        align-items: center;
+    }
+    .right{
+        display: flex !important;
+        justify-content: center !important;
+        width: 100% !important;
+    }
+}

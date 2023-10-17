@@ -1,0 +1,83 @@
+
+.btn{
+    padding: 1rem 1.7rem !important;
+    border-radius: 50px !important;
+    border: 2px solid yellow  !important;
+    background-color: transparent;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    line-height: 1.5rem !important;
+    color: white !important;
+    text-transform: uppercase;
+}
+/* .navbar{
+    position: fixed !important;
+    width: 100%;
+} */
+
+.btn:hover{
+    border-color: rgb(4, 104, 185) !important;
+    color: yellow !important;
+}
+
+.nav-link{
+    font-weight: bold !important;
+    line-height: 2rem !important;
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: rgb(255, 196, 0) !important;
+}
+
+.navbar-nav{
+    gap: 3rem !important;
+    padding-left: 10% !important;
+}
+
+.btn-cover{
+    padding-left: 20% !important;
+    margin: auto !important;
+    display: flex;
+    gap: 1.4rem;
+}
+
+@media (max-width:991px) {
+    .container{
+        gap: 2.5rem !important;
+    }
+    .navbar-nav{
+        align-items: center !important;
+    }
+    .nav-link{
+        border: 1px solid yellow !important;
+        width: 100%;
+        text-align: center;
+        border-radius: 50px;
+    }
+
+    .btn-cover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .navbar{
+        position: none !important;
+    }
+}
+.navbar-toggler,
+.navbar-toggler-icon{
+    background-color: white !important;
+}
+
+@media (max-width:1199px) {
+    .btn-cover{
+        padding-left: 9% !important;
+        margin: auto !important;
+    }
+    /* .navbar{
+        position: sticky !important;
+    } */
+}

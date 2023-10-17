@@ -1,0 +1,24 @@
+.f-show{
+    min-height: 100vh;
+    background-image: url('./images/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment:fixed;
+    overflow:  auto;
+    scroll-snap-type:  y mandatory;
+    display: grid;
+}
+footer{
+    background-image: url('./images/footer-bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.t-show{
+    min-height: 100vh;
+    background-image: url("./images/upcoming-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment:fixed;
+}

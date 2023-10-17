@@ -1,0 +1,46 @@
+.singin_page{
+    min-height: calc(100vh - 136px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    /* border: 0.4rem solid rgb(241, 241, 69); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 31rem;
+    width: 34rem;
+    border-radius: 20px;
+}
+
+
+
+.email,
+.password{
+    width: 70% !important;
+    border-radius: 50px !important;
+    height: 3rem;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: white;
+}
+
+
+.l_password,
+.l_email{
+    color: white;
+    font-weight: bold;
+    padding-top: 1.5rem;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.Form .btn{
+    padding-top: 1rem;
+}

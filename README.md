@@ -2,6 +2,7 @@
 
 Parameters are used in React JS to change the behavior or appearance of React components. Parameters can be used to provide specific data to display or to determine how the user interacts with the component.        
 
+Use: Bootstrap
 
  this project, parameters were used in the following components:           
 
